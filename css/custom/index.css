@@ -1,0 +1,225 @@
+/* content-section */
+*{
+  margin: 0;
+  padding: 0;
+}
+.content-section{
+    position: absolute;
+    margin-top: 5%;
+    left: 5%;
+    text-align: center;
+    width: 95%;
+  }
+  
+  .content-heading h2 {
+    text-align: center;
+    color: var(--white);
+    font-family: var(--pfamily);
+  
+  }
+  
+  .content-text p {
+    color: var(--white);
+    line-height: 3;
+    font-family: var(--rfamily);
+  }
+  
+  /* End content-section */
+
+ /* start Media Query */
+
+ /* responsive 320px */
+  @media screen and (min-width: 310px) and (max-width:349px) {
+    
+    .content-section{
+      width: 80%;
+      margin-left: 35px;
+      margin-top: 55px;
+    }
+    
+    .content-section .content-heading h2 {
+      text-align: center;
+      color: var(--white);
+      font-size: var(--h4);
+  
+    
+    }
+    
+    .content-section .content-text p {
+      color: var(--white);
+      line-height: 2;
+      font-size:var(--esm-text) ;
+      margin-top: 20px;
+    }
+  
+  }
+
+  /* responsive 350px */
+@media screen and (min-width: 350px) and (max-width:399px) {
+  .content-section{
+    width: 80%;
+    margin-left: 35px;
+    margin-top: 55px;
+  }
+  
+  .content-section .content-heading h2 {
+    text-align: center;
+    color: var(--white);
+    font-size: var(--h4);
+
+  
+  }
+  
+  .content-section .content-text p {
+    color: var(--white);
+    line-height: 2;
+    font-size:var(--msm-text) ;
+    margin-top: 20px;
+  }
+
+}
+
+/* responsive 414px */
+@media screen and (min-width: 400px) and (max-width:450px)  {
+  .content-section{
+    width: 85%;
+    margin-left: 30px;
+    margin-top: 55px;
+  }
+  
+  .content-section .content-heading h2 {
+    text-align: center;
+    color: var(--white);
+    font-size: var(--h3);
+  }
+  
+  .content-section .content-text p {
+    color: var(--white);
+    line-height: 2;
+    font-size:var(--msm-text) ;
+    margin-top: 20px;
+  }
+
+}
+
+/* responsive 768px */
+@media (min-width: 700px) and (max-width:989px) {
+  .content-section{
+    width: 85%;
+    margin-left: 55px;
+    margin-top: 95px;
+  }
+  
+  .content-section .content-heading h2 {
+    text-align: center;
+    color: var(--white);
+    font-size: var(--h2);
+  }
+  
+  .content-section .content-text p {
+    color: var(--white);
+    line-height: 2;
+    font-size:var(--sm-text) ;
+    margin-top: 20px;
+  }
+}
+
+/* responsive 991px */
+@media screen and (min-width: 990px) and (max-width:1079px) {
+  .content-section{
+    width: 85%;
+    margin-left: 55px;
+    margin-top: 95px;
+  }
+  
+  .content-section .content-heading h2 {
+    text-align: center;
+    color: var(--white);
+    font-size: var(--h2);
+  }
+  
+  .content-section .content-text p {
+    color: var(--white);
+    line-height: 2;
+    font-size:var(--sm-text) ;
+    margin-top: 20px;
+  }
+
+
+}
+
+/* responsive 1080px */
+@media screen and (min-width: 1080px) and (max-width:1430px) {
+  .content-section{
+    width: 90%;
+    margin-left: 45px;
+    margin-top: 80px;
+  }
+  
+  .content-section .content-heading h2 {
+    text-align: center;
+    color: var(--white);
+    font-size: var(--h1);
+  }
+  
+  .content-section .content-text p {
+    color: var(--white);
+    line-height: 2;
+    font-size:var(--sm-text) ;
+    margin-top: 20px;
+  }
+
+}
+
+/* responsive 1440px */
+@media screen and (min-width: 1440px) and (max-width:1910px) {
+
+  .content-section{
+    width: 90%;
+    margin-left: 45px;
+    margin-top: 80px;
+  }
+  
+  .content-section .content-heading h2 {
+    text-align: center;
+    color: var(--white);
+    font-size: var(--h1);
+  }
+  
+  .content-section .content-text p {
+    color: var(--white);
+    line-height: 2;
+    font-size:var(--sm-text) ;
+    margin-top: 20px;
+  }
+
+
+}
+
+/* responsive 1920px */
+@media screen and (min-width: 1920px) {
+
+  .content-section{
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 80px;
+  }
+  
+  .content-section .content-heading h2 {
+    text-align: center;
+    color: var(--white);
+    font-size: var(--h1);
+  }
+  
+  .content-section .content-text p {
+    color: var(--white);
+    line-height: 2;
+    font-size:var(--sm-text) ;
+    margin-top: 20px;
+  }
+
+
+
+}
+
+  /* End Media Query */
